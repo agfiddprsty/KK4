@@ -1,0 +1,33 @@
+{
+  "camera": "Camera",
+  "cancel": "Cancel",
+  "checkConnection": "No internet connection found. \nCheck your connection.",
+  "country": "country",
+  "email": "Email",
+  "error": {
+    "timeOutConnection": "Connection timeout. Please try again later."
+  },
+  "gallery": "Gallery",
+  "loading": "Loading ...",
+  "oops": "Oops!",
+  "password": "Password",
+  "phoneNumber": "Phone number",
+  "pleaseTryAgain": "Please try again",
+  "rememberMe": "Remember me",
+  "selectDate": "Select Date : ",
+  "selectFrom": "Select From : ",
+  "submit": "Submit",
+  "tryAgain": "Try again",
+  "update": "Update",
+  "updateBody": "Please update the application to the new version, \n to get the new contents",
+  "updateTitle": "Update",
+  "firstname": "First Name",
+  "lastname": "Last Name",
+  "titleLog": "Before you begin",
+  "titleReg": "Casually create an account",
+  "register": "Register",
+  "login": "Log In",
+  "donthaveacc": "I do not have an account",
+  "back": "Back",
+  "quiz": "Quiz"
+}
