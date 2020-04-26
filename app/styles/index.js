@@ -29,6 +29,8 @@ export const COLOR_EVENT_WARNING = '#f8e71c';
 export const COLOR_EVENT_INACTIVE = gray.gray_30;
 
 export const COLOR_WHITE = white;
+export const COLOR_TITLE_CARD = '#B6BBCE';
+export const COLOR_CON_CARD = 'rgba(104, 104, 104, 0.2)';
 export const COLOR_WHITE_OPACITY50 = 'rgba(255,255,255,0.5)';
 export const COLOR_WHITE_OPACITY40 = 'rgba(255,255,255,0.4)';
 export const COLOR_GREY = gray.gray_50;
@@ -56,6 +58,7 @@ const FONT_SIZE_SUBTITLE1 = 16;
 const FONT_SIZE_SUBTITLE2 = 14;
 const FONT_SIZE_BODY1 = 16;
 const FONT_SIZE_BODY2 = 14;
+const FONT_SIZE_BODY3 = 18;
 const FONT_SIZE_BUTTON = 14;
 const FONT_SIZE_CAPTION = 12;
 const FONT_SIZE_OVERLINE = 10;
@@ -158,6 +161,11 @@ export const FONT_BODY1_SECONDARY = {
 export const FONT_BODY2_PRIMARY = {
   fontFamily: FONT_PRIMARY_REGULAR,
   fontSize: FONT_SIZE_BODY2
+};
+
+export const FONT_BODY3_PRIMARY = {
+  fontFamily: FONT_PRIMARY_REGULAR,
+  fontSize: FONT_SIZE_BODY3
 };
 
 export const FONT_BODY2_SECONDARY = {

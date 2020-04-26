@@ -9,6 +9,16 @@ import Dashboard from '../screens/Dashboard';
 import Signup from '../screens/Signup';
 import Signin from '../screens/Signin';
 import sessionScreen from '../screens/Sessionscreen';
+import SplashScreen from '../screens/Splashscreen';
+import Definition from '../screens/Definition';
+import Concept from '../screens/Concept';
+import Benefits from '../screens/Benefits';
+import Element from '../screens/Element';
+import Detail from '../screens/Detail';
+import Quiz from '../screens/Quiz';
+import Score from '../screens/Score';
+import Exam from '../screens/Exam';
+import About from '../screens/About';
 
 export const HomeStack = StackNavigator(
   {
@@ -16,6 +26,18 @@ export const HomeStack = StackNavigator(
       screen: Home,
       navigationOptions: {
         tabBarVisible: true
+      }
+    },
+  },
+  { headerMode: 'none', navigationOptions: { tabBarVisible: false } }
+);
+
+export const SplashScreenStack = StackNavigator(
+  {
+    SplashScreen: {
+      screen: SplashScreen,
+      navigationOptions: {
+        tabBarVisible: false
       }
     }
   },
@@ -27,11 +49,71 @@ export const DashboardStack = StackNavigator(
     Dashboard: {
       screen: Dashboard,
       navigationOptions: {
-        tabBarVisible: false
+        tabBarVisible: true
+      }
+    },
+    Definition: {
+      screen: Definition,
+      navigationOptions: {
+        tabBarVisible: true
+      },
+    },
+    Concept: {
+      screen: Concept,
+      navigationOptions: {
+        tabBarVisible: true
+      },
+    },
+    Benefits: {
+      screen: Benefits,
+      navigationOptions: {
+        tabBarVisible: true
+      },
+    },
+    Element: {
+      screen: Element,
+      navigationOptions: {
+        tabBarVisible: true
+      },
+    },
+    Detail: {
+      screen: Detail,
+      navigationOptions: {
+        tabBarVisible: true
+      },
+    },
+    Exam: {
+      screen: Exam,
+      navigationOptions: {
+        tabBarVisible: true
+      }
+    },
+    Quiz: {
+      screen: Quiz,
+      navigationOptions: {
+        tabBarVisible: true
+      }
+    },
+    Score: {
+      screen: Score,
+      navigationOptions: {
+        tabBarVisible: true
+      }
+    },
+    Account: {
+      screen: Account,
+      navigationOptions: {
+        tabBarVisible: true
+      }
+    },
+    About: {
+      screen: About,
+      navigationOptions: {
+        tabBarVisible: true
       }
     }
   },
-  { headerMode: 'none', navigationOptions: { tabBarVisible: false } }
+  { headerMode: 'none', navigationOptions: { tabBarVisible: true } }
 );
 
 export const SessionscreenStack = StackNavigator(

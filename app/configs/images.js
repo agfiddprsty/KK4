@@ -1,8 +1,9 @@
 /* eslint-disable global-require */
 const images = {
-  bgimage: require('../../assets/img/bgimg.png'),
   bgimageful: require('../../assets/img/bgimgful.png'),
-  bgimagex1: require('../../assets/img/bgimgx1.png')
+  rectanglePink: require('../../assets/img/rectanglepink.png'),
+  profile: require('../../assets/img/profile.png'),
+  splash: require('../../assets/img/splash.png'),
   // back: require('../../assets/images/back.png'),
   // checkBoxOn: require('../../assets/images/checkbox_on.png'),
   // checkBoxOff: require('../../assets/images/checkbox_off.png'),
